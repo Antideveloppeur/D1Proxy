@@ -1,10 +1,10 @@
-<a href="https://github.com/Aquazus/D1Proxy"><img src="https://vgy.me/QCL9sT.jpg" width="33%" title="Art by @mofumanju" alt="Art by @mofumanju"></a>
+<a href="https://github.com/jordanamr/D1Proxy"><img src="https://vgy.me/QCL9sT.jpg" width="33%" title="Art by @mofumanju" alt="Art by @mofumanju"></a>
 
 # D1Proxy
 
 > A simple yet powerful Java 11 TCP MITM proxy for Dofus 1.29.1
 
-[![Maintainability](https://img.shields.io/codeclimate/maintainability/Aquazus/D1Proxy.svg?style=flat-square)](https://codeclimate.com/github/Aquazus/D1Proxy/maintainability) [![Dependencies](https://img.shields.io/librariesio/github/Aquazus/D1Proxy.svg?style=flat-square)](http://libraries.io/github/Aquazus/D1Proxy) [![Github Issues](https://img.shields.io/github/issues-raw/Aquazus/D1Proxy.svg?style=flat-square)](https://github.com/Aquazus/D1Proxy/issues) [![Pending Pull-Requests](https://img.shields.io/github/issues-pr-raw/Aquazus/D1Proxy.svg?style=flat-square)](https://github.com/Aquazus/D1Proxy/pulls) [![License](https://img.shields.io/github/license/Aquazus/D1Proxy.svg?style=flat-square)](LICENSE)
+[![Maintainability](https://img.shields.io/codeclimate/maintainability/jordanamr/D1Proxy.svg?style=flat-square)](https://codeclimate.com/github/jordanamr/D1Proxy/maintainability) [![Dependencies](https://img.shields.io/librariesio/github/jordanamr/D1Proxy.svg?style=flat-square)](http://libraries.io/github/jordanamr/D1Proxy) [![Github Issues](https://img.shields.io/github/issues-raw/jordanamr/D1Proxy.svg?style=flat-square)](https://github.com/jordanamr/D1Proxy/issues) [![Pending Pull-Requests](https://img.shields.io/github/issues-pr-raw/jordanamr/D1Proxy.svg?style=flat-square)](https://github.com/jordanamr/D1Proxy/pulls) [![License](https://img.shields.io/github/license/jordanamr/D1Proxy.svg?style=flat-square)](LICENSE)
 
 [![D1Proxy](https://i.vgy.me/Glb2El.png)](#)
 
@@ -29,7 +29,7 @@
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/Aquazus/D1Proxy.git`
+- Clone this repo to your local machine using `https://github.com/jordanamr/D1Proxy.git`
 
 ### Compile
 
@@ -64,7 +64,7 @@
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/Aquazus/D1Proxy.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/jordanamr/D1Proxy.git`
 
 ### Step 2
 
@@ -72,16 +72,16 @@
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/Aquazus/D1Proxy/compare/" target="_blank">`https://github.com/Aquazus/D1Proxy/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/jordanamr/D1Proxy/compare/" target="_blank">`https://github.com/jordanamr/D1Proxy/compare/`</a>.
 
 ---
 
 ## Team
 
-| <a href="https://github.com/Aquazus" target="_blank">**Aquazus**</a> |
+| <a href="https://github.com/jordanamr" target="_blank">**jordanamr**</a> |
 | :---: |
-| [![Aquazus](https://avatars1.githubusercontent.com/u/7611808?v=3&s=200)](https://github.com/Aquazus) |
-| <a href="https://github.com/Aquazus" target="_blank">`github.com/Aquazus`</a> |
+| [![jordanamr](https://avatars1.githubusercontent.com/u/55905781?v=3&s=200)](https://github.com/jordanamr) |
+| <a href="https://github.com/jordanamr" target="_blank">`github.com/jordanamr`</a> |
 
 ---
 
@@ -103,14 +103,14 @@
 
 Reach out to me at one of the following places!
 
-- Twitter at <a href="http://twitter.com/Aquazus" target="_blank">`@Aquazus`</a>
-- Discord at <a href="https://discord.gg/xUEpc5N" target="_blank">`discord.gg/xUEpc5N`</a>
+- Twitter at <a href="http://twitter.com/jordan_amr" target="_blank">`@jordan_amr`</a>
+- Discord at `jordanamr#1337`
 
 ---
 
 ## License
 
-[![License](https://img.shields.io/github/license/Aquazus/D1Proxy.svg?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/jordanamr/D1Proxy.svg?style=flat-square)](LICENSE)
 
 - **[AGPL-3.0 license](https://opensource.org/licenses/AGPL-3.0)**
-- Copyright 2018-2019 © <a href="http://github.com/Aquazus" target="_blank">Aquazus</a>.
+- Copyright 2018-2019 © <a href="http://github.com/jordanamr" target="_blank">jordanamr</a>.
