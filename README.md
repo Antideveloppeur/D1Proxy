@@ -1,12 +1,12 @@
-<a href="https://github.com/jordanamr/D1Proxy"><img src="https://vgy.me/QCL9sT.jpg" width="33%" title="Art by @mofumanju" alt="Art by @mofumanju"></a>
+<a href="https://github.com/jordanamr/D1Proxy"><img src="https://i.imgur.com/atjAaha.jpg" width="33%" title="Art by @mofumanju" alt="Art by @mofumanju"></a>
 
 # D1Proxy
 
-> A simple yet powerful Java 11 TCP MITM proxy for Dofus 1.29.1
+> A simple yet powerful Java 11 TCP MITM proxy for Dofus Retro (1.30)
 
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jordanamr/D1Proxy.svg?style=flat-square)](https://codeclimate.com/github/jordanamr/D1Proxy/maintainability) [![Dependencies](https://img.shields.io/librariesio/github/jordanamr/D1Proxy.svg?style=flat-square)](http://libraries.io/github/jordanamr/D1Proxy) [![Github Issues](https://img.shields.io/github/issues-raw/jordanamr/D1Proxy.svg?style=flat-square)](https://github.com/jordanamr/D1Proxy/issues) [![Pending Pull-Requests](https://img.shields.io/github/issues-pr-raw/jordanamr/D1Proxy.svg?style=flat-square)](https://github.com/jordanamr/D1Proxy/pulls) [![License](https://img.shields.io/github/license/jordanamr/D1Proxy.svg?style=flat-square)](LICENSE)
 
-[![D1Proxy](https://i.vgy.me/Glb2El.png)](#)
+[![D1Proxy](https://i.imgur.com/G93dU6d.png)](#)
 
 ---
 
@@ -104,7 +104,7 @@
 Reach out to me at one of the following places!
 
 - Twitter at <a href="http://twitter.com/jordan_amr" target="_blank">`@jordan_amr`</a>
-- Discord at `jordanamr#1337`
+- Discord at `jordanamr#4072`
 
 ---
 
