@@ -2,7 +2,7 @@
 
 # D1Proxy
 
-> A simple yet powerful Java 11 TCP MITM proxy for Dofus Retro (1.30)
+> A simple yet powerful Java 11 TCP MITM proxy for Dofus Retro (1.30+)
 
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jordanamr/D1Proxy.svg?style=flat-square)](https://codeclimate.com/github/jordanamr/D1Proxy/maintainability) [![Dependencies](https://img.shields.io/librariesio/github/jordanamr/D1Proxy.svg?style=flat-square)](http://libraries.io/github/jordanamr/D1Proxy) [![Github Issues](https://img.shields.io/github/issues-raw/jordanamr/D1Proxy.svg?style=flat-square)](https://github.com/jordanamr/D1Proxy/issues) [![Pending Pull-Requests](https://img.shields.io/github/issues-pr-raw/jordanamr/D1Proxy.svg?style=flat-square)](https://github.com/jordanamr/D1Proxy/pulls) [![License](https://img.shields.io/github/license/jordanamr/D1Proxy.svg?style=flat-square)](LICENSE)
 
@@ -19,6 +19,7 @@
 - [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
+- [Legality](#legality)
 
 ---
 
@@ -114,3 +115,6 @@ Reach out to me at one of the following places!
 
 - **[AGPL-3.0 license](https://opensource.org/licenses/AGPL-3.0)**
 - Copyright 2018-2019 © <a href="http://github.com/jordanamr" target="_blank">jordanamr</a>.
+
+## Legality
+> De nombreux éditeurs de logiciels propriétaires incluent dans leurs CLUF des clauses interdisant la rétro-ingénierie. Cependant dans de nombreux pays la rétro-ingénierie est autorisée par la loi, notamment à des fins d'interopérabilité. Dans ces pays, les clauses de ces CLUF ne sont pas valables, ou tout au plus dans les limites déterminées par la loi. Par exemple en France, ce droit est garanti par l'article L122-6-1 du code de la propriété intellectuelle. On trouve des dispositions similaires dans la directive 2009/24/CE du Parlement européen et du Conseil du 23 avril 2009.
