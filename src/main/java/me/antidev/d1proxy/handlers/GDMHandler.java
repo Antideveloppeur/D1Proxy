@@ -33,6 +33,8 @@ public class GDMHandler implements PacketHandler {
             String storedMapDate = proxy.getDatabase().getMapsCollection().getMapDate(mapId);
             if (!storedMapDate.equals(mapDate)) {
                 proxy.getDatabase().getMapsCollection().updateMap(mapId, new Document().append("date", mapDate).append("key", mapKey));
+                proxy.getDatabase().getMapsCollection().deleteFightCells(mapId);
+                proxyClient.sendMessage("Cette map <i>(ID: " + mapId + ")</i> a subit une mise à jour de la part d'Ankama, si possible, lancez un combat pour obtenir les cellules de combat à jour.");
                 try {
                     deleteMapFile(mapId + "_" + storedMapDate + (mapKey.isBlank() ? ".swf" : "X.swf"));
                 } catch (Exception ex) {

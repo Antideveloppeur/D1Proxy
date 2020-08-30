@@ -40,6 +40,10 @@ public class MapsCollection {
         return (collection.find(and(eq("id", mapId), exists("fightCells"))).first() != null);
     }
 
+    public void deleteFightCells(int mapId) {
+        collection.updateOne(eq("id", mapId), new Document().append("$unset", "fightCells"));
+    }
+
     public void updateMap(int mapId, Document updateQuery) {
         collection.updateOne(eq("id", mapId), new Document().append("$set", updateQuery));
     }
