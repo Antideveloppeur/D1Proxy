@@ -1,5 +1,6 @@
 package me.antidev.d1proxy.network;
 
+import me.antidev.d1proxy.ProxyConfiguration;
 import me.antidev.d1proxy.handlers.PacketDestination;
 import me.antidev.d1proxy.handlers.PacketHandler;
 import me.antidev.d1proxy.Proxy;
@@ -86,10 +87,14 @@ public class ProxyClient {
                 String packet = new String(clientStream.toByteArray(), StandardCharsets.UTF_8);
                 clientStream.reset();
                 this.log("--> " + (packet.length() > 1 ? packet.substring(0, packet.length() - 1) : ""));
-                if (packet.contains("1.29.1")) {
+
+                //FIXME J'ai envie de me connecter avec le client 1.29.1 fdp
+                if (packet.startsWith("1.29.1")) {
                     sendPacket(packet.replaceAll("1.29.1", "1.32.1"), server);
                     return;
                 }
+                //END
+
                 if (server.getChannel().isOpen() && shouldForward(packet, PacketDestination.SERVER)) sendPacket(packet, server);
                 return;
             }
@@ -176,7 +181,7 @@ public class ProxyClient {
     public void log(String message) {
         String format = "[" + ip + (username == null ? "" : " - " + username) + "] " + message;
         if (message.startsWith("-->") || message.startsWith("<--")) {
-            log.debug(format);
+            if (ProxyConfiguration.proxyLogPackets) log.info(format);
         } else {
             log.info(format);
         }

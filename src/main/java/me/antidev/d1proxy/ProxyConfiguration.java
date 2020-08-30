@@ -13,6 +13,7 @@ import java.util.TimeZone;
 public @Data class ProxyConfiguration {
 
     public static boolean proxyDebug;
+    public static boolean proxyLogPackets;
     protected String proxyIp;
     protected int proxyPort;
     protected boolean proxySniffing;
@@ -35,11 +36,12 @@ public @Data class ProxyConfiguration {
         try (FileInputStream fileInputStream = new FileInputStream("d1proxy.properties")) {
             properties.load(fileInputStream);
             proxyDebug = Boolean.parseBoolean(properties.getProperty("proxy.debug"));
+            proxyLogPackets = Boolean.parseBoolean(properties.getProperty("proxy.logpackets"));
             this.proxyIp = properties.getProperty("proxy.ip");
             this.proxyPort = Integer.parseInt(properties.getProperty("proxy.port"));
             this.proxySniffing = Boolean.parseBoolean(properties.getProperty("proxy.sniffing"));
             this.proxyTimeZone = TimeZone.getTimeZone(properties.getProperty("proxy.timezone"));
-            this.fullDateFormat = new SimpleDateFormat("dd/MM/YY à HH:mm:ss");
+            this.fullDateFormat = new SimpleDateFormat("dd/MM/yy à HH:mm:ss");
             this.fullDateFormat.setTimeZone(this.proxyTimeZone);
             this.proxyPrefix = properties.getProperty("proxy.prefix");
             this.dofusIp = properties.getProperty("dofus.ip");
