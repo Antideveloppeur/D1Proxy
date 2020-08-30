@@ -29,6 +29,7 @@ public class GDMHandler implements PacketHandler {
         if (!proxy.getDatabase().getMapsCollection().mapExists(mapId)) {
             proxy.getDatabase().getMapsCollection().insertNewMap(mapId, proxyClient.getUsername(), mapDate, mapKey);
             proxy.sendMessage("<b>" + proxyClient.getUsername() + "</b> a découvert une nouvelle map ! <i>(ID: " + mapId + ")</i>");
+            proxy.getDatabase().getProfilesCollection().incrementMaps(proxyClient.getUsername());
         } else {
             String storedMapDate = proxy.getDatabase().getMapsCollection().getMapDate(mapId);
             if (!storedMapDate.equals(mapDate)) {

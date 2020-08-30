@@ -33,4 +33,8 @@ public class ProfilesCollection {
     public void incrementFightCells(String username) {
         collection.updateOne(eq("username", username), new Document().append("$inc", new Document().append("fightCells", 1)));
     }
+
+    public void incrementMaps(String username) {
+        collection.updateOne(eq("username", username), new Document().append("$inc", new Document().append("maps", 1)));
+    }
 }
