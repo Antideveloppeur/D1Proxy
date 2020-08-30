@@ -1,10 +1,10 @@
-<a href="https://github.com/jordanamr/D1Proxy"><img src="https://i.imgur.com/atjAaha.jpg" width="33%" title="Art by @mofumanju" alt="Art by @mofumanju"></a>
+<a href="https://github.com/Antideveloppeur/D1Proxy"><img src="https://i.imgur.com/atjAaha.jpg" width="33%" title="Art by @mofumanju" alt="Art by @mofumanju"></a>
 
 # D1Proxy
 
 > A simple yet powerful Java 11 TCP MITM proxy for Dofus Retro (1.30+)
 
-[![Maintainability](https://img.shields.io/codeclimate/maintainability/jordanamr/D1Proxy.svg?style=flat-square)](https://codeclimate.com/github/jordanamr/D1Proxy/maintainability) [![Dependencies](https://img.shields.io/librariesio/github/jordanamr/D1Proxy.svg?style=flat-square)](http://libraries.io/github/jordanamr/D1Proxy) [![Github Issues](https://img.shields.io/github/issues-raw/jordanamr/D1Proxy.svg?style=flat-square)](https://github.com/jordanamr/D1Proxy/issues) [![Pending Pull-Requests](https://img.shields.io/github/issues-pr-raw/jordanamr/D1Proxy.svg?style=flat-square)](https://github.com/jordanamr/D1Proxy/pulls) [![License](https://img.shields.io/github/license/jordanamr/D1Proxy.svg?style=flat-square)](LICENSE)
+[![Maintainability](https://img.shields.io/codeclimate/maintainability/Antideveloppeur/D1Proxy.svg?style=flat-square)](https://codeclimate.com/github/Antideveloppeur/D1Proxy/maintainability) [![Dependencies](https://img.shields.io/librariesio/github/Antideveloppeur/D1Proxy.svg?style=flat-square)](http://libraries.io/github/Antideveloppeur/D1Proxy) [![Github Issues](https://img.shields.io/github/issues-raw/Antideveloppeur/D1Proxy.svg?style=flat-square)](https://github.com/Antideveloppeur/D1Proxy/issues) [![Pending Pull-Requests](https://img.shields.io/github/issues-pr-raw/Antideveloppeur/D1Proxy.svg?style=flat-square)](https://github.com/Antideveloppeur/D1Proxy/pulls) [![License](https://img.shields.io/github/license/Antideveloppeur/D1Proxy.svg?style=flat-square)](LICENSE)
 
 [![D1Proxy](https://i.imgur.com/G93dU6d.png)](#)
 
@@ -30,12 +30,12 @@
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/jordanamr/D1Proxy.git`
+- Clone this repo to your local machine using `git clone https://github.com/Antideveloppeur/D1Proxy.git`
 
 ### Compile
 
-- Import the project using the pom.xml into your favorite IDE and run a Maven `package` goal
-- You will find the jar file inside the `target` folder, named `d1proxy-<version>.jar`
+- Run a Gradle `build` goal inside your IDE or using the gradlew executable
+- You will find the jar file inside the `build/libs` folder, named `d1proxy-<version>.jar`
 
 ### Setup
 
@@ -65,7 +65,7 @@
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/jordanamr/D1Proxy.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/Antideveloppeur/D1Proxy.git`
 
 ### Step 2
 
@@ -73,16 +73,16 @@
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/jordanamr/D1Proxy/compare/" target="_blank">`https://github.com/jordanamr/D1Proxy/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/Antideveloppeur/D1Proxy/compare/" target="_blank">`https://github.com/Antideveloppeur/D1Proxy/compare/`</a>.
 
 ---
 
 ## Team
 
-| <a href="https://github.com/jordanamr" target="_blank">**jordanamr**</a> |
+| <a href="https://github.com/Antideveloppeur" target="_blank">**Antidev**</a> |
 | :---: |
-| [![jordanamr](https://avatars1.githubusercontent.com/u/55905781?v=3&s=200)](https://github.com/jordanamr) |
-| <a href="https://github.com/jordanamr" target="_blank">`github.com/jordanamr`</a> |
+| [![Antidev](https://avatars1.githubusercontent.com/u/55905781?v=3&s=200)](https://github.com/Antideveloppeur) |
+| <a href="https://github.com/Antideveloppeur" target="_blank">`github.com/Antideveloppeur`</a> |
 
 ---
 
@@ -104,17 +104,16 @@
 
 Reach out to me at one of the following places!
 
-- Twitter at <a href="http://twitter.com/jordan_amr" target="_blank">`@jordan_amr`</a>
-- Discord at `jordanamr#4072`
+- Discord at `Antidev#2570`
 
 ---
 
 ## License
 
-[![License](https://img.shields.io/github/license/jordanamr/D1Proxy.svg?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/Antideveloppeur/D1Proxy.svg?style=flat-square)](LICENSE)
 
 - **[AGPL-3.0 license](https://opensource.org/licenses/AGPL-3.0)**
-- Copyright 2018-2019 © <a href="http://github.com/jordanamr" target="_blank">jordanamr</a>.
+- Copyright 2018-2020 © <a href="http://github.com/Antideveloppeur" target="_blank">Antideveloppeur</a>.
 
 ## Legality
 > De nombreux éditeurs de logiciels propriétaires incluent dans leurs CLUF des clauses interdisant la rétro-ingénierie. Cependant dans de nombreux pays la rétro-ingénierie est autorisée par la loi, notamment à des fins d'interopérabilité. Dans ces pays, les clauses de ces CLUF ne sont pas valables, ou tout au plus dans les limites déterminées par la loi. Par exemple en France, ce droit est garanti par l'article L122-6-1 du code de la propriété intellectuelle. On trouve des dispositions similaires dans la directive 2009/24/CE du Parlement européen et du Conseil du 23 avril 2009.

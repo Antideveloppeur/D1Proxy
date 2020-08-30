@@ -1,0 +1,35 @@
+plugins {
+    id "java"
+    id "idea"
+    id "application"
+    id "io.freefair.lombok" version "5.1.1"
+    id "com.github.johnrengelman.shadow" version "6.0.0"
+}
+
+group = "me.antidev"
+version = "1.10.6-dev"
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+compileJava.options.encoding = "UTF-8"
+application.mainClassName = "me.antidev.d1proxy.Proxy"
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.github.jhg023:SimpleNet:1.6.6"
+    implementation "org.mongodb:mongo-java-driver:3.12.7"
+    implementation "org.pf4j:pf4j:3.4.1"
+    implementation "org.slf4j:slf4j-api:2.0.0-alpha1"
+    implementation "ch.qos.logback:logback-classic:1.3.0-alpha5"
+    implementation "org.asynchttpclient:async-http-client:2.12.1"
+}
+
+shadowJar {
+    mergeServiceFiles()
+    archiveFileName = "${baseName}-${version}.${extension}"
+}
+
+build.dependsOn shadowJar
