@@ -1,9 +1,3 @@
-# D1Proxy
-d1proxy.log
-plugins/
-maps/
-logs/
-
 # Created by https://www.toptal.com/developers/gitignore/api/java,gradle,maven,intellij+all,visualstudiocode,eclipse,netbeans
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,gradle,maven,intellij+all,visualstudiocode,eclipse,netbeans
 
